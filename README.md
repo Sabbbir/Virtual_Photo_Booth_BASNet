@@ -94,9 +94,8 @@ The script will process images from the input directory and save composited resu
 
 ## Future Enhancements
 
-- Real-time processing for live photo booth setups
 - Additional frame and background templates
-- Batch processing interface for large event galleries
+- Enabling to select Background and Frame from the internet
 - Mobile application integration
 
 ## Acknowledgments
