@@ -17,33 +17,49 @@ This project demonstrates an automated pipeline for creating professional-lookin
 
 Below are examples from a CSE department event demonstrating the system's capabilities:
 
-<p align="center">
-  <img src="Images/i1.jpg" width="400" alt="CSE ByteBlast themed photo"/>
-  <br>
-  <b>CSE ByteBlast Event Photo</b><br>
-  Background removed and themed frame applied with event branding
-</p>
+<table>
+<tr>
+<td width="50%">
 
+### CSE ByteBlast Event Photo
 <p align="center">
-  <img src="Images/i2.jpg" width="400" alt="Custom framed portrait"/>
-  <br>
-  <b>Custom Framed Portrait</b><br>
-  Clean background separation with decorative frame
+  <img src="Images/i1.jpg" width="90%" alt="CSE ByteBlast themed photo"/>
 </p>
+Background removed and themed frame applied with event branding.
 
-<p align="center">
-  <img src="Images/i3.jpg" width="400" alt="Vice Chancellor portrait"/>
-  <br>
-  <b>Vice Chancellor Portrait</b><br>
-  Professional composition with themed background
-</p>
+</td>
+<td width="50%">
 
+### Custom Framed Portrait
 <p align="center">
-  <img src="Images/i4.jpg" width="400" alt="Department faculty group photo"/>
-  <br>
-  <b>Department Faculty Visit</b><br>
-  Group photo with custom background and frame
+  <img src="Images/i2.jpg" width="90%" alt="Custom framed portrait"/>
 </p>
+Clean background separation with decorative frame.
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### Vice Chancellor Portrait
+<p align="center">
+  <img src="Images/i3.jpg" width="90%" alt="Vice Chancellor portrait"/>
+</p>
+Professional composition with themed background.
+
+</td>
+<td width="50%">
+
+### Department Faculty Visit
+<p align="center">
+  <img src="Images/i4.jpg" width="90%" alt="Department faculty group photo"/>
+</p>
+Group photo with custom background and frame.
+
+</td>
+</tr>
+</table>
 
 ## How It Works
 
@@ -78,7 +94,9 @@ The system processes photos in three stages:
 5. Place `basnet.pth` in the `saved_model/basnet/` directory
 
 ### Running the Application
-python test_test.py
+
+
+	python test_test.py
 
 
 The script will process images from the input directory and save composited results to the output folder.
@@ -108,5 +126,6 @@ This project builds upon the BASNet implementation by Qin et al. Special thanks 
 ---
 
 For questions or collaboration opportunities, feel free to reach out through GitHub issues.
+
 
 
