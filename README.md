@@ -78,17 +78,9 @@ The system processes photos in three stages:
 
 ```
 python test_test.py
-
 ```
 
 The script will process images from the input directory and save composited results to the output folder.
-
-## Use Cases
-
-- **Campus Events**: Quickly generate branded photos during student activities
-- **Professional Photography**: Create consistent headshots with uniform backgrounds
-- **Social Media Content**: Prepare eye-catching profile pictures and posts
-- **Marketing Materials**: Generate promotional images with brand-consistent styling
 
 ## Technical Details
 
