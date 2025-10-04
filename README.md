@@ -17,49 +17,29 @@ This project demonstrates an automated pipeline for creating professional-lookin
 
 Below are examples from a CSE department event demonstrating the system's capabilities:
 
-<table>
-<tr>
-<td width="50%">
-
 ### CSE ByteBlast Event Photo
 <p align="center">
-  <img src="Images/i1.jpg" width="90%" alt="CSE ByteBlast themed photo"/>
+  <img src="Images/i1.jpg" width="70%" alt="CSE ByteBlast themed photo"/>
 </p>
 Background removed and themed frame applied with event branding.
 
-</td>
-<td width="50%">
-
 ### Custom Framed Portrait
 <p align="center">
-  <img src="Images/i2.jpg" width="90%" alt="Custom framed portrait"/>
+  <img src="Images/i2.jpg" width="70%" alt="Custom framed portrait"/>
 </p>
 Clean background separation with decorative frame.
 
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
 ### Vice Chancellor Portrait
 <p align="center">
-  <img src="Images/i3.jpg" width="90%" alt="Vice Chancellor portrait"/>
+  <img src="Images/i3.jpg" width="70%" alt="Vice Chancellor portrait"/>
 </p>
 Professional composition with themed background.
 
-</td>
-<td width="50%">
-
 ### Department Faculty Visit
 <p align="center">
-  <img src="Images/i4.jpg" width="90%" alt="Department faculty group photo"/>
+  <img src="Images/i4.jpg" width="70%" alt="Department faculty group photo"/>
 </p>
 Group photo with custom background and frame.
-
-</td>
-</tr>
-</table>
 
 ## How It Works
 
@@ -95,9 +75,9 @@ The system processes photos in three stages:
 
 ### Running the Application
 
-
-	python test_test.py
-
+```
+python test_test.py
+```
 
 The script will process images from the input directory and save composited results to the output folder.
 
@@ -126,6 +106,3 @@ This project builds upon the BASNet implementation by Qin et al. Special thanks 
 ---
 
 For questions or collaboration opportunities, feel free to reach out through GitHub issues.
-
-
-
