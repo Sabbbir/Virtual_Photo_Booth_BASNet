@@ -4,42 +4,41 @@ A lightweight virtual photo studio that performs high-quality background removal
 
 ## Overview
 
-This project demonstrates an automated pipeline for creating professional-looking photos with custom backgrounds and frames. Originally developed for campus events, it uses deep learning to extract subjects with crisp edges and seamlessly composite them onto themed backgrounds.
+This project demonstrates an automated pipeline for creating professional-looking photos with custom backgrounds and frames. Originally developed for CSE Byte Blast (Department of Computer Science and Engineering, Jashore University of Science and Technology), it uses deep learning to extract subjects with crisp edges and seamlessly composite them onto themed backgrounds. After capturing the image and applying post-processing, the picture is sent to the user via email.
 
 ### Key Features
 
 - **High-Quality Segmentation**: Uses BASNet for precise foreground extraction with clean boundaries
 - **Themed Compositions**: Automatically applies custom frames and backgrounds
-- **Event-Ready**: Designed for quick turnaround during live events
 - **Flexible Pipeline**: Easy to adapt for different themes and branding requirements
 
 ## Sample Results
 
-Below are examples from a CSE department event demonstrating the system's capabilities:
+Below are examples from CSE-Byte Blast event demonstrating the system's capabilities:
 
 ### CSE ByteBlast Event Photo
 <p align="center">
   <img src="Images/i1.jpg" width="70%" alt="CSE ByteBlast themed photo"/>
 </p>
-Background removed and themed frame applied with event branding.
+Background removed and themed BG applied. After that a custom frame was added. 
 
-### Custom Framed Portrait
+### Custom BG and Frame Portrait
 <p align="center">
   <img src="Images/i2.jpg" width="70%" alt="Custom framed portrait"/>
 </p>
-Clean background separation with decorative frame.
+Clean background separation with decorative frame and Background.
 
-### Vice Chancellor Portrait
+### VC (Vice Chancellor) Portrait 
 <p align="center">
   <img src="Images/i3.jpg" width="70%" alt="Vice Chancellor portrait"/>
 </p>
-Professional composition with themed background.
+VC sir was the honorable guest for the program. His photo is being taken in this image. Chairman of CSE department is watching the process.
 
-### Department Faculty Visit
+### Faculty Visit
 <p align="center">
   <img src="Images/i4.jpg" width="70%" alt="Department faculty group photo"/>
 </p>
-Group photo with custom background and frame.
+Teachers from CSE department caputuring images. 
 
 ## How It Works
 
@@ -77,6 +76,7 @@ The system processes photos in three stages:
 
 ```
 python test_test.py
+
 ```
 
 The script will process images from the input directory and save composited results to the output folder.
@@ -100,8 +100,8 @@ The script will process images from the input directory and save composited resu
 - Mobile application integration
 
 ## Acknowledgments
+This project was developed during my bachelor's degree (4th year) under the supervision of Dr. A F M Shahab Uddin at the VMI Lab (Visual Machine Intelligence Lab), CSE Department, JUST. Special thanks to Dr. A F M Shahab Uddin sir for his guidance and support in implementing this initiative during our departmental event, CSE ByteBlast.
 
-This project builds upon the BASNet implementation by Qin et al. Special thanks to the CSE department for supporting this initiative during campus events.
 
 ---
 
