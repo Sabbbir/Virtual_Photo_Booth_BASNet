@@ -34,7 +34,7 @@ Clean background separation with decorative frame and Background.
 <p align="center">
   <img src="Images/i3.jpg" width="70%" alt="Vice Chancellor portrait"/>
 </p>
-VC sir was the honorable guest for the program. His photo is being taken in this image. Chairman of CSE department is watching the process.
+VC sir was the Honorable Guest for the program. His photo is being taken in this image. The Chairman of CSE department is also present beside him.
 
 ### Faculty Visit
 <p align="center">
