@@ -6,6 +6,8 @@ A lightweight virtual photo studio that performs high-quality background removal
 
 This project demonstrates an automated pipeline for creating professional-looking photos with custom backgrounds and frames. Originally developed for CSE Byte Blast (Department of Computer Science and Engineering, Jashore University of Science and Technology), it uses deep learning to extract subjects with crisp edges and seamlessly composite them onto themed backgrounds. After capturing the image and applying post-processing, the picture is sent to the user via email.
 
+The main motivation was to do something unique. During the departmental events, all the departments make frame with papers and box which is so old school. So, my supervisor told me to pitch some ideas and make something unique. I proposed my idea and others loved it. Captured more than 300+ images that day! 
+
 ### Key Features
 
 - **High-Quality Segmentation**: Uses BASNet for precise foreground extraction with clean boundaries
@@ -38,7 +40,7 @@ VC sir was the honorable guest for the program. His photo is being taken in this
 <p align="center">
   <img src="Images/i4.jpg" width="70%" alt="Department faculty group photo"/>
 </p>
-Teachers from CSE department caputuring images. 
+Teachers from CSE department visiting the photo booth. 
 
 ## How It Works
 
